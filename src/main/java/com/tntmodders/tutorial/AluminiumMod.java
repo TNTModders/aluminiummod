@@ -23,7 +23,7 @@ public class AluminiumMod {
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    //アイテムを登録するイベント。 旧preinitのタイミングで発火する。
+    //アイテムを登録するイベント。旧preinitのタイミングで発火する。
     @SubscribeEvent
     public void registerItems(RegistryEvent.Register<Item> event) {
         event.getRegistry().register(ALUMINIUM);
