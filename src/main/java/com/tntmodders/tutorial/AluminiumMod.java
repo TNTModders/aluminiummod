@@ -29,7 +29,7 @@ public class AluminiumMod {
         event.getRegistry().register(ALUMINIUM);
     }
 
-    //モデルを登録するイベント。@SideOnlyによってクライアント側のみ呼ばれる。旧preinitのタイミングで発火する。
+    //モデルを登録するイベント。SideOnlyによってクライアント側のみ呼ばれる。旧preinitのタイミングで発火する。
     @SubscribeEvent
     @SideOnly(Side.CLIENT)
     public void registerModels(ModelRegistryEvent event) {
