@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "item": "aluminiummod:aluminium"
+    },
+    "title": {
+      "translate": "advancements.aluminiummod.get.title"
+    },
+    "description": {
+      "translate": "advancements.aluminiummod.get.desc"
+    }
+  },
+  "parent": "aluminiummod:root",
+  "rewards": {
+    "loot": [
+      "aluminiummod:entities/aluminium_get"
+    ],
+    "experience": 500
+  },
+  "criteria": {
+    "get_aluminium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "aluminiummod:aluminium"
+          }
+        ]
+      }
+    },
+    "get_aluminium_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "aluminiummod:aluminium_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_aluminium",
+      "get_aluminium_block"
+    ]
+  ]
+}

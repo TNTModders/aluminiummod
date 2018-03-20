@@ -1,3 +1,8 @@
 #AluminiumMod English Language File
 item.aluminium.name=aluminium
 tile.aluminium_block.name=aluminium block
+item.aluminium_rod.name=aluminium
+advancements.aluminiummod.root.title=root
+advancements.aluminiummod.root.desc=root
+advancements.aluminiummod.get.title=get
+advancements.aluminiummod.get.desc=get aluminium

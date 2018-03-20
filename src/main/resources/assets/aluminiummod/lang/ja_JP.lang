@@ -1,3 +1,8 @@
 #アルミニウムMOD 日本語言語ファイル
 item.aluminium.name=アルミニウム
 tile.aluminium_block.name=アルミニウムブロック
+item.aluminium_rod.name=アルミニウムロッド
+advancements.aluminiummod.root.title=アルミニウムMOD
+advancements.aluminiummod.root.desc=あるみなあるみな
+advancements.aluminiummod.get.title=アルミニウムの入手
+advancements.aluminiummod.get.desc=アルミニウムを入手する あるみなあるみな

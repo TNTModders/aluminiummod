@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "aluminiummod:aluminium_block"
+    },
+    "title": {
+      "translate": "advancements.aluminiummod.root.title"
+    },
+    "description": {
+      "translate": "advancements.aluminiummod.root.desc"
+    },
+    "background": "aluminiummod:textures/blocks/aluminium_block.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
